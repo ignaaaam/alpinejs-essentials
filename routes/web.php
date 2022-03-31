@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/1', function () {
+Route::get('/data-binding', function () {
     return view('data-binding');
+});
+
+Route::get('/toggle-visibility', function () {
+    return view('toggle-visibility');
 });

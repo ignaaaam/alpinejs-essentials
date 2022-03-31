@@ -13,7 +13,6 @@
     <div x-data="{first: 0, second: 0}">
 
         <input class="border" type="text" x-model.number="first"> + <input class="border " type="text" x-model.number="second"> = <output x-text="first + second" ></output>
-
     </div>
 </body>
 </html>
