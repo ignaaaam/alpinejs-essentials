@@ -24,3 +24,8 @@ Route::get('/data-binding', function () {
 Route::get('/toggle-visibility', function () {
     return view('toggle-visibility');
 });
+
+Route::get('/two-way-data-binding', function () {
+    return view('two-way-data-binding');
+});
+
